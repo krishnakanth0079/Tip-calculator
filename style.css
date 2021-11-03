@@ -1,0 +1,84 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-color:black;
+}
+#container{
+    width: 360px;
+    height: 630px;
+    background-color: tomato;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+h1{
+    background-color: turquoise;
+    font-size: 30px;
+    border-radius:20px;
+    padding: 25px;
+}
+p{
+    padding-left: 20px;
+    font-size: 16px;
+}
+form input[type="text"]{
+    width:150px;
+}
+input{
+    padding:10px;
+}
+
+#bill{
+    width: 200px;
+    font-size: 18px;
+    background: wheat;
+    padding: 10px auto;
+    margin-left: 35px;
+}
+
+#service{
+    width: 225px;
+    height:40px;
+    font-size: 18px;
+    padding: 10px auto;
+    margin-left:70px;
+    background: wheat; 
+}
+#people{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px auto;
+    background: wheat; 
+    margin-left:70px;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: #000000;
+    color:white;
+    font-size: 20px;
+    margin: 30px auto;
+    display: block;
+}
+
+#totaltip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#totaltip:before{
+    content: "TIP AMOUNT";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+
+#totaltip small{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+#tip{
+  margin-left:20px  
+}
